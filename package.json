@@ -1,0 +1,12 @@
+{
+  "name": "ci-cd-hands-on",
+  "private": true,
+  "type": "module",
+  "description": "サークル内のCI/CD体験ハンズオンに使用するものです",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
