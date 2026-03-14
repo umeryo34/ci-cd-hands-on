@@ -5,3 +5,6 @@ test("sqrt", () => {
 });
 
 // ここに例外のテストコードを追加
+test("negative number", () => {
+  expect(() => sqrt(-1)).toThrow();
+});
