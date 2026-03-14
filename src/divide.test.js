@@ -4,3 +4,6 @@ test("divide", () => {
 });
 
 // ここに例外のテストコードを追加
+test("divide by zero", () => {
+  expect(() => divide(1, 0)).toThrow();
+});
