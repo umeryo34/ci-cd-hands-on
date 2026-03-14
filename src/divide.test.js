@@ -5,10 +5,10 @@ test("divide", () => {
 
 // ここに例外のテストコードを追加
 import { divide } from "./devide";
-test("divide",() => {
+test("divide", () => {
   expect(divide(4, 2)).toBe(2);
 });
 
-test("divide by zero",() => {
+test("divide by zero", () => {
   expect(divide(1, 0)).toThrow();
 });
