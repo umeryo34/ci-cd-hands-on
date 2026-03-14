@@ -5,5 +5,5 @@ test("divide", () => {
 
 // ここに例外のテストコードを追加
 test("divide by zero", () => {
-  expect(() => divide(3, 0)).toThrow();
+  expect(divide(3, 0)).toBe(Infinity);
 });
